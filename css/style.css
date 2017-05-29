@@ -1,0 +1,44 @@
+body {
+    font-size: 1.2em;
+    background-color: #292b2a;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#container {
+    max-width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+    background: #389e6b;
+}
+
+.panel {
+    max-width: 80%;
+    margin: 20px auto;
+    border-radius: 10px;
+    padding: 10px;
+    background: #ffffff;
+}
+
+button {
+    background: #292b2a;
+    height: 3em;
+    width: 70%;
+    margin-bottom: 1.5em;
+    border-radius: 10px; 
+    color: white;
+    font-size: 0.7em;
+}
+
+input {
+    border-radius: 10px;
+    border-color: #389e6b;
+    width: 80%;
+    height: 3em;
+    text-align: center;
+}
+
+.activeButton {
+    background: #389e6b;
+}
