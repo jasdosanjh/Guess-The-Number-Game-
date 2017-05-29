@@ -28,16 +28,14 @@ function newGame() {
 
 function init() {
     computerGuess = Math.floor(Math.random() * 100 + 1);
-    console.log(computerGuess);
+    // console.log(computerGuess);
     document.getElementById('newGameButton').style.display = 'none';
 }
 
 function compareGuess() {
     var userGuess = " " + document.getElementById('inputBox').value;
-    // console.log(userGuess);
 
     userGuessLog.push(userGuess);
-    // console.log(userGuessLog);
     document.getElementById('guessLog').innerHTML = userGuessLog;
 
     attempts++;
