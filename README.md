@@ -4,8 +4,8 @@ This is a simple guess the number game I made using HTML, CSS, and JavaScript.
 
 ## Built With
 
-* HTML
-* CSS
+* HTML5
+* CSS3
 * JavaScript
 
 ## Acknowledgement
